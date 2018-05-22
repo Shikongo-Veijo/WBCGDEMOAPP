@@ -1,0 +1,68 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nust.carloss.wbcgdemoapp.TranslatorFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Translate">
+
+        <!-- TODO: Update blank fragment layout -->
+
+        <TextView
+            android:id="@+id/translatedLang"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_below="@+id/button"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/box"
+            android:gravity="center"
+            android:text="Translated" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="248dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="63dp"
+            android:layout_marginStart="63dp"
+            android:backgroundTint="@color/marron"
+            android:text="Translate"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/enterLang"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_above="@+id/button"
+            android:layout_alignLeft="@+id/translatedLang"
+            android:layout_alignStart="@+id/translatedLang"
+            android:layout_marginBottom="14dp"
+            android:background="@drawable/box"
+            android:gravity="center"
+            android:text="Select input Language" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/enterLang"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="43dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:gravity="center"
+            android:text="input word" />
+
+
+    </RelativeLayout>
+
+
+</FrameLayout>

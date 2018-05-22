@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/map"
+            android:title="Back to Map"
+            android:icon="@mipmap/ic_map_black_24dp">
+        </item>
+        <item android:id="@+id/alerts"
+            android:title="Alerts"
+            android:icon="@mipmap/ic_error_black_24dp">
+
+        </item>
+        <item android:id="@+id/route"
+            android:title="Route"
+            android:icon="@drawable/ic_action_route">
+        </item>
+        <item android:id="@+id/regulations"
+            android:title="Corridor Regulations"
+            android:icon="@mipmap/ic_gavel_black_24dp">
+        </item>
+        <item android:id="@+id/health"
+            android:title="Eating Healthy"
+            android:icon="@mipmap/ic_restaurant_black_24dp">
+        </item>
+        <item android:id="@+id/translate"
+            android:title="Translate"
+            android:icon="@mipmap/ic_forum_black_24dp">
+        </item>
+        <item android:id="@+id/settings"
+            android:title="Settings">
+        </item>
+        <item android:id="@+id/help"
+            android:title="Help">
+        </item>
+        <item android:id="@+id/feedback"
+            android:title="Feedback">
+        </item>
+        <item android:id="@+id/about"
+            android:title="About">
+        </item>
+    </group>
+</menu>
